@@ -1,6 +1,6 @@
 from rest_framework import serializers
 from ..models import Bron
-from account.models import User
+from apps.account.models import User
 
 
 class BronSerializer(serializers.ModelSerializer):
