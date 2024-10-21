@@ -3,7 +3,7 @@ from ..models import Arena
 from .serializers import ArenaSerializer
 from rest_framework.generics import ListAPIView
 from datetime import datetime
-from account.base_permission import *
+from apps.account.base_permission import *
 from django.db.models import F, Q, Max
 
 
